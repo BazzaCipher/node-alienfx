@@ -1,7 +1,7 @@
 function waitForKeyPress(callback) {
-    var readline = require('readline');
+    let readline = require('readline');
 
-    var rl = readline.createInterface({
+    let rl = readline.createInterface({
         input: process.stdin,
         output: process.stdout,
     });
@@ -17,5 +17,5 @@ function waitForKeyPress(callback) {
 
 
 module.exports = exports = {
-    waitForKeyPress: waitForKeyPress
+    waitForKeyPress
 };
